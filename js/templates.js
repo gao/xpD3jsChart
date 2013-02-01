@@ -10,6 +10,15 @@ Handlebars.templates['tmpl-LineChart'] = Handlebars.template(function (Handlebar
   return "<div class=\"LineChart\"></div>";}
 );
 
+// template --- tmpl-LineChart-Summary ---
+Handlebars.templates['tmpl-LineChart-Summary'] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
+  helpers = helpers || Handlebars.helpers;
+  
+
+
+  return "<div class=\"LineChartSummary\"></div>";}
+);
+
 // template --- tmpl-MainScreen ---
 Handlebars.templates['tmpl-MainScreen'] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
   helpers = helpers || Handlebars.helpers;

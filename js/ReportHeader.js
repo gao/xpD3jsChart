@@ -24,8 +24,9 @@
             		  brite.display("Welcome");
             		}else if(menu == "LineChart"){
             		  brite.display("LineChart");
+            		}else if(menu == "PieChart"){
+            		  brite.display("PieChart");
             		}
-
             	}
             }
         });

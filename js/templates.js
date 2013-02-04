@@ -28,13 +28,31 @@ Handlebars.templates['tmpl-MainScreen'] = Handlebars.template(function (Handleba
   return "<div class=\"MainScreen\">\n	    <div class=\"MainScreen-header\">\n	    </div>\n	    <div class=\"MainScreen-main\">\n	    </div>\n    </div>";}
 );
 
+// template --- tmpl-PieChart ---
+Handlebars.templates['tmpl-PieChart'] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
+  helpers = helpers || Handlebars.helpers;
+  
+
+
+  return "<div class=\"PieChart\"></div>";}
+);
+
+// template --- tmpl-PieChart-Summary ---
+Handlebars.templates['tmpl-PieChart-Summary'] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
+  helpers = helpers || Handlebars.helpers;
+  
+
+
+  return "<div class=\"PieChartSummary\"></div>";}
+);
+
 // template --- tmpl-ReportHeader ---
 Handlebars.templates['tmpl-ReportHeader'] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
   helpers = helpers || Handlebars.helpers;
   
 
 
-  return "<div class=\"ReportHeader\">\n		<div class=\"navbar  navbar-inverse navbar-fixed-top\">\n		  <div class=\"navbar-inner\">\n		    <a class=\"brand\" href=\"#\">D3JS Demo</a>\n		    <ul class=\"nav\">\n		      <li data-nav=\"Welcome\" class=\"menu active\">Welcome</li>\n		      <li data-nav=\"LineChart\" class=\"menu\">LineChart</li>\n		    </ul>\n		  </div>\n		</div>\n	</div>";}
+  return "<div class=\"ReportHeader\">\n		<div class=\"navbar  navbar-inverse navbar-fixed-top\">\n		  <div class=\"navbar-inner\">\n		    <a class=\"brand\" href=\"#\">D3JS Demo</a>\n		    <ul class=\"nav\">\n		      <li data-nav=\"Welcome\" class=\"menu active\">Welcome</li>\n		      <li data-nav=\"LineChart\" class=\"menu\">LineChart</li>\n		      <li data-nav=\"PieChart\" class=\"menu\">PieChart</li>\n		    </ul>\n		  </div>\n		</div>\n	</div>";}
 );
 
 // template --- tmpl-Welcome ---
